@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #404040;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+textarea {
+  width: 341px;
+  height: 113px;
+  resize: none;
+  outline: none;
+}
